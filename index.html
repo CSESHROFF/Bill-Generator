@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bill Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left">
+                    <div class="img-con">
+                        <img src="Red_Kitten_01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    
+                        <a href="#">Home</a>
+                        <a href="#">Contact us</a>
+                
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="bill-input">
+                <p>Bill</p>
+                <div class="input-con">
+                    <span>	&#8377; </span>
+                    <input id="amounts" type="number" >
+                </div>
+                <p id="st">Select tips</p>
+                <div class="tip-con">
+                    <div class="tip">5%</div>
+                    <div class="tip">10%</div>
+                    <div class="tip">15%</div>
+                    <div class="tip">25%</div>
+                    <div class="tip">50%</div>
+                    <div class="tip">75%</div>
+                </div>
+                <input type="number" placeholder="custom Tip" class="cus-tip">
+                <p id="np">Number of People</p>
+                <input type="number" placeholder="Number of People" class="cus-tip noOf">
+
+                <button id="gen-bill" disabled>Generate Bill</button>
+
+            </div>
+            <div class="bill_output">
+                <p class="tip-amount">tip amount <span></span></p>
+                <p class="total">Total <span></span></p>
+                <p class="each-per">Each Person Bill <span></span></p>
+                
+                <button id="reset" disabled>Reset</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made With &hearts; Love by AKA Anupam Kumar</p>
+        </footer>
+    </body> 
+</html>
